@@ -16,8 +16,6 @@
 
 .list__item { list-style-type: none; }
 
-.list__item:not(:last-child) { margin-right: 0; }
-
 .pic_four-radius { border-radius: 11px; }
 
 .pic_two-radius { border-radius: 12px 12px 0 0; }
@@ -55,7 +53,6 @@
 }
 
 .btn:hover {
-  /*transform: translateY(3px);*/
   transform:
           perspective(400px)
           scaleZ(0.8)

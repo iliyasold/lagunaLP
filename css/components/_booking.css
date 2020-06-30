@@ -1,7 +1,7 @@
 .booking {
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  padding-top: 34px;
 }
 
 .booking__title { margin-bottom: 20px !important; }
@@ -9,8 +9,8 @@
 .booking__form { width: 573px; }
 
 .booking__input {
-  margin-bottom: 26px;
-  padding: 25px 188px 26px 20px;
+  margin-bottom: 25px;
+  padding: 25px 188px 27px 20px;
   width: 518px;
   font-size: 15px;
   background-color: #fff;

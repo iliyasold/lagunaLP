@@ -1,7 +1,9 @@
-.about { padding-top: 67px; }
+.about { padding-top: 35px; }
+
+.about__title { margin-bottom: 8px; }
 
 .about__text {
-  margin-top: 10px;
+  margin-top: 0;
   margin-left: 43px;
   width: 74%;
   line-height: 2;

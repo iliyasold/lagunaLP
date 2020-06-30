@@ -1,4 +1,4 @@
-.header { padding-top: 24px; }
+.header { padding-top: 30px; }
 
 /* --- Header Top --- */
 .header__top {
@@ -50,7 +50,7 @@
 
 .header__form {
   margin-top: 1px;
-  margin-left: 120px;
+  margin-left: 115px;
 }
 
 .header__input {

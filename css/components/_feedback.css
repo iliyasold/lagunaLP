@@ -1,5 +1,5 @@
 .feedback {
-  padding-top: 160px;
+  padding-top: 126px;
   padding-left: 110px;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .feedback__input {
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   padding: 26px 188px 26px 20px;
   width: 340px;
   font-size: 16px;
@@ -19,7 +19,7 @@
 .feedback__input:focus { padding-top: 26px !important; }
 
 .feedback__textarea {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   padding: 14px 0 43px 20px;
   width: 340px;
   font-size: 16px;

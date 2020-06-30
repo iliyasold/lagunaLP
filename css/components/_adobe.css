@@ -1,25 +1,25 @@
-.abode { padding-top: 27px; }
-
-.abode__title { margin-top: 43px; }
+.abode__title {
+  margin-top: 46px;
+  margin-bottom: 19px;
+}
 
 .adobe__h3-title {
     font-size: 16px;
     font-weight: normal;
 }
 
-.abode__list {
-  margin-top: 22px;
-}
-
 .abode__item {
   display: flex !important;
   flex-direction: column;
+  margin-right: auto;
   margin-bottom: 24px;
-  padding-bottom: 45px;
+  padding-bottom: 44px;
   width: 373px;
   border-radius: 14px;
   background-color: #fff;
 }
+
+.abode__item:nth-child(3n+3) { margin-right: 0; }
 
 .adobe__offer {
   margin-top: 30px;

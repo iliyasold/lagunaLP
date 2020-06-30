@@ -1,16 +1,17 @@
-.services { padding-top: 38px; }
-
-.services__list { margin-top: 19px; }
+.services__section-title {
+  margin-top: 54px;
+  margin-bottom: 20px;
+}
 
 .services__item {
-  margin-top: 1px;
-  /*margin-right: 0 !important;*/
   margin-bottom: 24px;
   padding-bottom: 16px;
   width: 572px;
   border-radius: 12px;
   background-color: #fff;
 }
+
+.services__item:nth-child(2n) { margin-left: auto; }
 
 .services__title {
   margin-bottom: 0;

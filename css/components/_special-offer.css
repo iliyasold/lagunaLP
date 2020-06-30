@@ -1,12 +1,16 @@
-.special-offer { padding-top: 70px; }
+/*.special-offer { padding-top: 48px; }*/
 
 .special-offer__block {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   padding-top: 205px;
 }
+
+.special-offer__title {
+  margin-top: 68px;
+  margin-bottom: 22px;
+ }
 
 .special-offer__h3-title {
   margin-bottom: 32px;
