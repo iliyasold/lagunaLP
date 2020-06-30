@@ -1,0 +1,73 @@
+.footer {
+  /* Positioning */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+
+  /* Box Model */
+  padding-top: 48px;
+  padding-right: 52px;
+  padding-bottom: 33px;
+  padding-left: 52px;
+
+  /* Typography */
+  line-height: 1.72;
+  color: #fff;
+
+  /* Visualization */
+  background-color: #333;
+  background-image: url("../../img/sun.png");
+  background-repeat: no-repeat;
+  background-position-x: 735px;
+  background-position-y: 110px;
+}
+
+/* --- Info Column --- */
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  line-height: 1.9;
+}
+
+.footer__no-offer {
+  display: block;
+  margin-top: 33px;
+  width: 87%;
+  line-height: 2;
+}
+
+.footer__politic { margin-top: 36px; }
+
+/* --- Contacts Column --- */
+.footer__address {
+  margin-top: 0;
+  margin-right: 187px;
+  font-style: normal;
+}
+
+.footer__list {
+  flex-direction: column;
+  margin-top: 0;
+  width: 345px;
+}
+
+.footer__post { margin-bottom: 27px; }
+
+.footer__email { margin-top: 20px; }
+
+/* --- Social Column --- */
+.footer__social {
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.footer__link {
+  margin-top: 0;
+  display: block;
+  margin-bottom: 21px;
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,44 @@
+.special-offer { padding-top: 70px; }
+
+.special-offer__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-top: 205px;
+}
+
+.special-offer__h3-title {
+  margin-bottom: 32px;
+  margin-left: 41px;
+  width: 82%;
+  font-size: 65px;
+  line-height: 0.87;
+  color: #fff;
+}
+
+.special-offer__pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.special-offer__price {
+  margin-left: 41px;
+  font-size: 38px;
+  color: #999;
+}
+
+.special-offer__price-link {
+  margin-left: 50px;
+  padding-right: 25px;
+  font-size: 18px;
+
+  /* Visualization */
+  background-image: url("../../img/icons/arrow-to-right-ginger.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 22px;
+}

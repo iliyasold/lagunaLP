@@ -1,0 +1,27 @@
+.advantages { padding-top: 27px; }
+
+.advantages__title { margin-top: 43px; }
+
+.advantages__list { margin-top: 21px; }
+
+.advantages__item {
+  /* Box Model */
+  margin-bottom: 24px;
+  padding-top: 45px;
+  padding-left: 43px;
+  padding-bottom: 15px;
+  width: 275px;
+
+  /* Visualization */
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.advantages__text {
+  margin-top: 0;
+  padding-top: 70px;
+  width: 80%;
+  line-height: 2;
+  color: #333;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,44 @@
+.feedback {
+  padding-top: 160px;
+  padding-left: 110px;
+}
+
+.feedback__form {
+  margin-top: 33px;
+  margin-left: 19px;
+}
+
+.feedback__input {
+  margin-bottom: 21px;
+  padding: 26px 188px 26px 20px;
+  width: 340px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.feedback__input:focus { padding-top: 26px !important; }
+
+.feedback__textarea {
+  margin-bottom: 20px;
+  padding: 14px 0 43px 20px;
+  width: 340px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 13px;
+  outline: none;
+  background-color: #fff;
+}
+
+.feedback__btn {
+  padding: 28px 129px 26px 128px;
+
+  /* Typography */
+  font-size: 16px;
+  color: #fff;
+
+  /* Visualization */
+  border: 0;
+  border-radius: 13px;
+  outline: none;
+  background-color: #ca9932;
+}

@@ -1,0 +1,132 @@
+/* Containers */
+.container {
+  margin: 0 auto;
+  width: 1168px;
+}
+
+.wrapper_two-column { display: flex; }
+
+/* Blocks */
+.inline-block { display: inline-block; }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list__item { list-style-type: none; }
+
+.list__item:not(:last-child) { margin-right: 0; }
+
+.pic_four-radius { border-radius: 11px; }
+
+.pic_two-radius { border-radius: 12px 12px 0 0; }
+
+/* Titles */
+.h2-title {
+  margin-left: 41px;
+  font-size: 42px;
+  font-weight: normal;
+}
+
+.h3-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #575757;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Inputs & Buttons */
+.btn {
+  border: 0;
+  font-family: 'MullerBold', sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  /*transform: translateY(3px);*/
+  transform:
+          perspective(400px)
+          scaleZ(0.8)
+          translateZ(50px);
+}
+
+.btn_none-bg {
+  color: #ca9932;
+  border: 1px solid #ca9932 !important;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.btn_fill-bg {
+  color: #fff;
+  border: 0;
+  border-radius: 13px;
+  outline: none;
+  background-color: #ca9932;
+}
+
+.input {
+  border: 0;
+  border-radius: 13px;
+  outline: none;
+  color: #999;
+}
+
+.input[type='search']::-webkit-search-decoration,
+.input[type='search']::-webkit-search-cancel-button,
+.input[type='search']::-webkit-search-results-button,
+.input[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.input:focus {
+  padding-top: 25px;
+  border: 0;
+}
+
+/* Colors */
+.color_grey { color: #999; }
+
+.color_gringo { color: #ca9932; }
+
+.color_white { color: #fff; }
+
+/* Icons */
+.bathtub-ico { background-image: url("../img/icons/bathtub.png"); }
+
+.hanger-ico { background-image: url("../img/icons/hanger.png"); }
+
+.heating-ico { background-image: url("../img/icons/heating.png"); }
+
+.hotel-key-ico { background-image: url("../img/icons/hotel-key.png"); }
+
+.parking-ico { background-image: url("../img/icons/parking.png"); }
+
+.reception-ico { background-image: url("../img/icons/reception.png"); }
+
+.security-box-ico { background-image: url("../img/icons/security-box.png"); }
+
+.swimming-pool-ico { background-image: url("../img/icons/swimming-pool.png"); }
+
+/* Social Icons */
+.tripadvisor-ico  { background-image: url("../img/social/tripadvisor.png"); }
+
+.twitter-ico { background-image: url("../img/social/twitter.png"); }
+
+.facebook-ico { background-image: url("../img/social/facebook.png"); }
+
+.vk-ico { background-image: url("../img/social/vk.png"); }
+
+.google-ico { background-image: url("../img/social/google.png"); }

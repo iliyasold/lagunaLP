@@ -1,0 +1,40 @@
+.services { padding-top: 38px; }
+
+.services__list { margin-top: 19px; }
+
+.services__item {
+  margin-top: 1px;
+  /*margin-right: 0 !important;*/
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  width: 572px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.services__title {
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-left: 44px;
+  font-family: 'MullerMedium', sans-serif;
+  font-size: 22px;
+}
+
+.services__link {
+  padding-right: 30px;
+
+  /* Visualization */
+  background-image: url("../../img/icons/arrow-to-right-ginger.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 24px;
+}
+
+.services__text {
+  margin-top: 6px;
+  padding-left: 43px;
+  width: 75%;
+  line-height: 2;
+  color: #333;
+}

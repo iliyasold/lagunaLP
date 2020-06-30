@@ -1,0 +1,15 @@
+@import '_fonts.css';
+@import '_global.css';
+@import '_overall.css';
+
+/* Components */
+@import 'components/_header.css';
+@import 'components/_booking.css';
+@import 'components/_special-offer.css';
+@import 'components/_about.css';
+@import 'components/_services.css';
+@import 'components/_advantages.css';
+@import 'components/_adobe.css';
+@import 'components/_contacts.css';
+@import 'components/_feedback.css';
+@import 'components/_footer.css';

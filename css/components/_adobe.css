@@ -1,0 +1,77 @@
+.abode { padding-top: 27px; }
+
+.abode__title { margin-top: 43px; }
+
+.adobe__h3-title {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.abode__list {
+  margin-top: 22px;
+}
+
+.abode__item {
+  display: flex !important;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding-bottom: 45px;
+  width: 373px;
+  border-radius: 14px;
+  background-color: #fff;
+}
+
+.adobe__offer {
+  margin-top: 30px;
+  margin-left: 44px;
+}
+
+.adobe__price {
+  font-size: 26px;
+  color: #333;
+}
+
+.adobe__raiting { margin-left: 22px; }
+
+.adobe__h3-title,
+.adobe__city { margin-left: 44px; }
+
+.adobe__h3-title { margin-top: 13px; }
+
+.adobe__btn {
+  display: block;
+  margin-top: 19px;
+  margin-left: 44px;
+  padding: 12px 0 11px 20px;
+  width: 100px;
+}
+
+.abode__link-arrow {
+  position: relative;
+
+  /* Box Model */
+  display: flex;
+  margin-top: -96px;
+  margin-right: 34px;
+  padding-left: 40px;
+
+  /* Typography */
+  font-size: 22px;
+
+  /* Visualization */
+  background-image: url("../../img/icons/arrow-to-right.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 24px;
+}
+
+.abode__link-arrow::after {
+  position: absolute;
+  right: 0;
+  bottom: -51px;
+  display: block;
+  width: 100%;
+  height: 441px;
+  content: '';
+}

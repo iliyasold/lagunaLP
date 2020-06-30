@@ -1,0 +1,9 @@
+.about { padding-top: 67px; }
+
+.about__text {
+  margin-top: 10px;
+  margin-left: 43px;
+  width: 74%;
+  line-height: 2;
+  color: #999;
+}
