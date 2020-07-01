@@ -49,24 +49,35 @@
   width: 100px;
 }
 
-/*.adobe__all { position: relative; }*/
+/* All Hotels */
+.adobe__all { position: relative; }
+
+.adobe__title {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* Box Model */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 54px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .abode__link-arrow {
-  /* Positioning */
-  /*position: absolute;*/
-  /*height: 100%;*/
-  width: 100%;
- 
   /* Box Model */
   display: block;
-  margin-top: -96px;
-  margin-right: 34px;
+  margin-right: 28px;
   padding-left: 40px;
 
-  /* Typography */
+/*  !* Typography *!*/
   font-size: 22px;
 
-  /* Visualization */
+/*  !* Visualization *!*/
   background-image: url("../../img/icons/arrow-to-right.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -74,19 +85,16 @@
   background-size: 24px;
 }
 
-/*.abode__link-arrow::after {*/
-/*  !* Positioning *!*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  right: 0;*/
-/*  left: 0;*/
-/*  */
-/*  !* Box Model *!*/
-/*  display: block;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*  content: '';*/
-/*  */
-/*  !* Visualization *!*/
-/*  !*background-color: red;*!*/
-/*}*/
+.abode__link-arrow::after{
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+  /* Box Model */
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: '';
+}

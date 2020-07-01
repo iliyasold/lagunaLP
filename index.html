@@ -16,7 +16,7 @@
           <img class="header__top__logo" src="img/logo.png" alt="лого" title="Лого Лагуна - сеть отелей">
         </a>
 
-        <a href="#" class="link header__phone">+7 495 322 54</a>
+        <a class="link header__phone" href="#">+7 495 322 54</a>
 
         <a class="link header__link color_gringo" href="#">Личный кабинет</a>
       </div>
@@ -93,7 +93,7 @@
           </label>
 
           <div>
-            <button class="btn btn_fill-bg booking__btn" type="submit">Найти номер</button>
+            <button class="btn btn_fill-bg booking__btn" type="submit" aria-label="Найти">Найти номер</button>
 
             <span class="booking__amount">
                   <a class="link color_gringo" href="#">9 756</a> предложений доступно
@@ -480,13 +480,11 @@
             </article>
           </li>
 
-          <li class="list__item">
+          <li class="adobe__item list__item">
             <article class="adobe__all">
-              <h3 class="adobe__all-title">
-              <img class="pic_four-radius" src="img/hotels/hotels_all.jpg" alt="все отели"
-                   title="Все отели">
+              <img class="pic_four-radius" src="img/hotels/hotels_all.jpg" alt="все отели" title="Все отели">
 
-
+              <h3 class="adobe__title">
                 <a class="link abode__link-arrow color_white" href="#">Посмотреть все варианты </a>
               </h3>
             </article>
@@ -537,14 +535,14 @@
             </li>
           </ul>
 
-          <button class="btn btn_none-bg contacts__btn">Построить маршрут</button>
+          <button class="btn btn_none-bg contacts__btn" aria-label="Построить маршрут">Построить маршрут</button>
         </form>
       </section>
 
       <section class="feedback">
         <h2 class="h2-title">Напишите нам</h2>
 
-        <form action="https://jsonplaceholder.typicode.com/posts" class="feedback__form" method="POST"
+        <form class="feedback__form" action="https://jsonplaceholder.typicode.com/posts" method="POST"
               autocomplete="on">
           <label for="name">
             <input class="input feedback__input" type="text" size="55" name="name" placeholder="Имя"
@@ -561,7 +559,7 @@
                       placeholder="Сообщение..." id="message"></textarea>
           </label>
 
-          <button type="submit" class="btn btn_fill-bg feedback__btn">Отправить</button>
+          <button class="btn btn_fill-bg feedback__btn" type="submit" aria-label="Отправить">Отправить</button>
         </form>
       </section>
     </div>
