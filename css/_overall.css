@@ -45,10 +45,11 @@
   overflow: hidden;
 }
 
-/* Inputs & Buttons */
+/* Inputs, Buttons & Links */
 .btn {
   border: 0;
   font-family: 'MullerBold', sans-serif;
+  transition: all 0.7s ease-in-out;
   cursor: pointer;
 }
 
@@ -92,6 +93,8 @@
   padding-top: 25px;
   border: 0;
 }
+
+.link { transition: all 0.7s ease-in-out; }
 
 /* Colors */
 .color_grey { color: #999; }

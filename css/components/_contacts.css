@@ -10,7 +10,7 @@
   margin-bottom: 20px;
 }
 
-.section_contacts__address {
+.contacts__address {
   padding: 31px 43px 42px 44px;
   width: 472px;
   font-style: normal;
@@ -48,6 +48,7 @@
   display: block;
   width: 60%;
   padding-bottom: 1px;
+  font-style: normal;
 }
 
 .contacts__btn {
